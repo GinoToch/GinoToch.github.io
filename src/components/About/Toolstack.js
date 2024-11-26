@@ -6,7 +6,12 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
+  SiJetbrains,
 } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
+import { SiKubernetes } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { SiAzurepipelines } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -24,7 +29,19 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+      <SiJetbrains />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <VscAzure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiAzurepipelines />
       </Col>
     </Row>
   );
