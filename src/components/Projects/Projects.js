@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="ProSwipe"
               description="Een Tinder clone van linked in. Een app die werkzoekende mensen tussen bedrijven laat swipen zoals bij Tinder. De werkgever krijgt een lijst van alle mensen die 'Ja' geswiped hebben. Daarna is chatten mogeljk"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+             
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="Connected Airlines"
               description="Voor een bedrijf heeft mijn team tijdens een proftaak een airline management systeem gemaakt. Wij hebben voor dit project AWS gebruikt en het gehele project scalable gemaakt. Tevens hebben we een live tracker voor vliegtuigen geintegreerd"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+             
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
