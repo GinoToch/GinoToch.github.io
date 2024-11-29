@@ -19,7 +19,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
             Hi, ik ben Gino
-            Ik ben een  developer met ervaring in talen zoals
+            Ik ben een  developer met ervaring in talen en frameworks zoals
               <br />
               <i>
                 <b className="purple"> C#, Python, Golang, Java, Swift, React en Vue. </b>

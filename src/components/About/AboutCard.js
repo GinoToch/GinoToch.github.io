@@ -11,6 +11,7 @@ function AboutCard() {
             Hey iedereen! Mijn naam is <span className="purple">Gino Stock.</span>
             <br />
             Geboren in Aken <span className="purple">NRW, Duitsland,</span>
+            <br />
             en nu woonachtig in Kerkrade <span className="purple">Limburg, Nederland. </span>
             <br />
             Momenteel student software engineering aan <span className="purple">Fontys Hogeschool in Eindhoven.</span>
