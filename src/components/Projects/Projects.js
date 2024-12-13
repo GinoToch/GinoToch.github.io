@@ -26,7 +26,7 @@ function Projects() {
               title="ProSwipe"
               description="Een Tinder clone van linked in. Een app die werkzoekende mensen tussen bedrijven laat swipen zoals bij Tinder. De werkgever krijgt een lijst van alle mensen die 'Ja' geswiped hebben. Daarna is chatten mogeljk"
              
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://www.linkedin.com/in/ginostock/"
             />
           </Col>
 
@@ -37,7 +37,7 @@ function Projects() {
               title="Connected Airlines"
               description="Voor een bedrijf heeft mijn team tijdens een proftaak een airline management systeem gemaakt. Wij hebben voor dit project AWS gebruikt en het gehele project scalable gemaakt. Tevens hebben we een live tracker voor vliegtuigen geintegreerd"
              
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://www.linkedin.com/in/ginostock/"
             />
           </Col>
 
