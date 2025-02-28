@@ -93,7 +93,7 @@ export const DATA = {
       start: "Maart 2016",
       end: "Huidig",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Dit is de bijbaan die ik sinds de middelbare school heb. Mijn taken zijn onder andere het ontvangen van klanten, ons systeem uitleggen en de klanten begeleiden in hun proces. 🎮",
     },
     {
       company: "Nvidia",
