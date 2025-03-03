@@ -88,7 +88,7 @@ export const DATA = {
       href: "https://www.escaperoomkerkrade.nl/nl/",
       location: "Kerkreade",
       title: "Teamleider",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/shopify.png",
       start: "Maart 2016",
       end: "Heden",
       description:
