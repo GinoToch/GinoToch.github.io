@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import GitHubCalendar from "react-github-calendar";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -137,7 +138,6 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
                 <ProjectCard
-                  href={project.href}
                   key={project.title}
                   title={project.title}
                   description={project.description}
@@ -145,7 +145,6 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
-                  links={project.links}
                 />
               </BlurFade>
             ))}
@@ -164,29 +163,14 @@ export default function Page() {
                   Ik bouw graag dingen
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Geduurdende mijn carriere heb ik verschillende producten gemaakt
+                  Geduurdende mijn carriere heb ik verschillende producten
+                  gemaakt
                 </p>
               </div>
+              <div className="w-full flex justify-center">
+                <GitHubCalendar username="GinoToch" colorScheme="dark" />
+              </div>
             </div>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
-            </ul>
           </BlurFade>
         </div>
       </section>
@@ -198,18 +182,17 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                Contacteer mij
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Wil je contact opnemen?{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href="mailto:ginostock@outlook.com"
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  Stuur een e-mail
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                en ik zal je bericht so snel mogelijk beantwoorden
               </p>
             </div>
           </BlurFade>
